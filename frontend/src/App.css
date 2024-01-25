@@ -1,0 +1,76 @@
+  .container15{
+  background-image: url(https://visme.co/blog/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-040.jpg);
+ }
+ .container16{
+  background-image: url(https://t3.ftcdn.net/jpg/03/45/04/82/360_F_345048267_avDiFyLxvHTqoL47X54tKPlX06im8X9Z.jpg);
+ }
+ .container17{
+  background-image: url(https://wallpaperaccess.com/full/2314983.jpg);
+ }
+  
+ 
+
+/* home page css start */
+
+  .carousel-indicators button {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.category{
+  width: 15rem;
+  margin-left: 300px;
+  
+} 
+
+.card {
+  border : none !important
+  
+}
+
+/* footer css start */
+.Mycontainer{
+  max-width: 1170px;
+  margin: auto;
+}
+.row4{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+
+ul{
+  list-style: none;
+}
+
+.footer{
+  background-color: azure;
+  padding: 70px;
+}
+.footer-col{
+width: 25%;
+padding: 0 30px;
+}
+.footer-col h5{
+  font-size: 18px;
+  color: black;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col ul li a{
+  text-decoration: none;
+  font-weight: 300;
+  display: block;
+  color: black;
+}
+.footer-col ul li a:hover{
+  color: black;
+  padding-left: 8px;
+}
+/* footer css close */
+
+ 
