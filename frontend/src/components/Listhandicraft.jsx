@@ -200,9 +200,10 @@ const Listhandicraft = () => {
 
 
   return (
+    <div style={{ overflow: 'hidden' }}>
     <div>
       
-      <header className='bg-info-subtle text-dark'>
+      <header className='bg-info-subtle text-dark '>
         <div className='container py-5'>
           <h4 className='text-center'>Best Sellers</h4>
           <p className='text-center'>Presenting to you our bestsellers - specially chosen items from our collections will make you revamp your entire home decor!</p>
@@ -388,7 +389,8 @@ const Listhandicraft = () => {
 
         </div>
     </div>
+    </div>
   )
 }
 
-export default Listhandicraft
+export default Listhandicraft;

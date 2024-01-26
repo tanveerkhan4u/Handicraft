@@ -3,6 +3,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 
+
+
+
 const Home = () => {
 
   useEffect(() => {
@@ -145,11 +148,13 @@ const Home = () => {
       <div className="container d-flex " style={{ gap: "10px" }} data-aos="fade-right">
         <div className="col-md-3 mb-4 ">
           <div className="card shadow">
+           
             <img
               className="card-img-top myimg"
               src="https://exclusivelane.com/cdn/shop/products/EL-002-127_A_280x.jpg?v=1568953176"
               alt="" 
             />
+           
             <div className="card-body">
               <h6>Coloured Fish' Handmade & Hand-Painted Garden Decorative Wall Hanging In Terracotta</h6>
 
@@ -219,6 +224,7 @@ const Home = () => {
               src="https://exclusivelane.com/cdn/shop/products/el-002-001_a_3_280x.jpg?v=1570516510"
               alt=""
             />
+          
             <div className="card-body">
               <h6>8 Terracotta Warli Handpainted Pots With Sheesham Wooden Frame Wall Hanging</h6>
 
