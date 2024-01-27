@@ -173,10 +173,10 @@ const Listhandicraft = () => {
 
       {handicraftList.map((laptop) => {
         return (<div className='col-md-3'>
-          <div className='card bg-body-secondary shadow' style={{ height: '430px', width: '240px' }}>
-            <img src={'http://localhost:3000/' + laptop.image} style={{ height: '300px', objectFit: 'cover', objectPosition: 'center' }} alt="" />
+          <div className='card bg-body-secondary shadow'>
+            <img src={'http://localhost:3000/' + laptop.image} className='card-img-top' style={{ height: '200px', objectFit: 'cover' }} alt="" />
 
-            <div className='card-body'>
+            <div className='card-body' style={{height: "200px"}}>
               <h6>{laptop.name}</h6>
               <h4>{laptop.model}</h4>
               <h6>  {laptop.rating}</h6>
@@ -262,6 +262,7 @@ const Listhandicraft = () => {
     </div>
   </div>
 </div>
+
                 
 
 <div className="accordion" id="accordionExample">
